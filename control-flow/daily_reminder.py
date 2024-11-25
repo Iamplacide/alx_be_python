@@ -1,4 +1,5 @@
-# Prompt for task details
+# Prompt for task details for the daily reminder
+
 task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ")
 time_bound = input("Is it time-bound? (yes/no): ")
