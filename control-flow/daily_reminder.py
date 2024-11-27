@@ -22,7 +22,7 @@ else:
     reminder += ". Consider completing it when you have free time."
 
 # Provide a customized reminder
-if priority == "high" or priority() == "medium":
+if priority == "high" or priority == "medium":
     print(f"\nReminder: {reminder}")
 else:
     print(f"\nNote: {reminder}")
