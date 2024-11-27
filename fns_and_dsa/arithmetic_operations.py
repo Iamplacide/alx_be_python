@@ -1,4 +1,5 @@
 def perform_operation(num1, num2, operation):
+try :
     operand = operation.lower()
     match operand:
         case "add":
@@ -6,9 +7,9 @@ def perform_operation(num1, num2, operation):
         case "multiply":
             return = num1 * num2
         case "divide":
-            if num1 == 0 or num2 == 0:
-                print("Error! Can't divide by 0)
-            else:
-                return = num1 / num2
+            return = num1 / num2
         case "subtract":
             return = num1 - num2
+
+except ZeroDivisionError:
+    print("Can't divide by zero")
